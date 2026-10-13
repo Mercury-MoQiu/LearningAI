@@ -1,0 +1,33 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# ===== Virtual environments =====
+.venv/
+venv/
+env/
+
+# ===== Secrets / environment variables =====
+.env
+.env.*
+!.env.example
+
+# ===== Jupyter =====
+.ipynb_checkpoints/
+
+# ===== IDE =====
+.idea/
+.vscode/
+
+# ===== LangGraph runtime =====
+.langgraph_api/
+*.pckl
+
+# ===== Generated data & logs =====
+OutdoorClothingCatalog_1000.csv
+*.log
+*.sqlite
+*.sqlite3
+*.db
